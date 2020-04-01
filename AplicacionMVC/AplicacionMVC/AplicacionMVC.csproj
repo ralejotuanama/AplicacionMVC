@@ -206,6 +206,10 @@
     <Compile Include="Migrations\202004011847257_tabla_products.Designer.cs">
       <DependentUpon>202004011847257_tabla_products.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004011903559_addPriceToModelProduct.cs" />
+    <Compile Include="Migrations\202004011903559_addPriceToModelProduct.Designer.cs">
+      <DependentUpon>202004011903559_addPriceToModelProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -295,6 +299,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202004011847257_tabla_products.resx">
       <DependentUpon>202004011847257_tabla_products.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004011903559_addPriceToModelProduct.resx">
+      <DependentUpon>202004011903559_addPriceToModelProduct.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
