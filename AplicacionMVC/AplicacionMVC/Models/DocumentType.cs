@@ -14,5 +14,7 @@ namespace AplicacionMVC.Models
         public string Description { get; set; }
 
         public virtual ICollection<Employe> Employes { get; set; }
+
+        public virtual ICollection<Customer> Customers { get; set; }
     }
 }

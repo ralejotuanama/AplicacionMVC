@@ -216,8 +216,21 @@
     <Compile Include="Migrations\202004020019085_addModelDocumentType_Employe.Designer.cs">
       <DependentUpon>202004020019085_addModelDocumentType_Employe.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004020041452_AddDisplayToModelEmploye.cs" />
+    <Compile Include="Migrations\202004020041452_AddDisplayToModelEmploye.Designer.cs">
+      <DependentUpon>202004020041452_AddDisplayToModelEmploye.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004020121315_AddAnotationToModelEmployes.cs" />
+    <Compile Include="Migrations\202004020121315_AddAnotationToModelEmployes.Designer.cs">
+      <DependentUpon>202004020121315_AddAnotationToModelEmployes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004022356597_AddModelCustomer.cs" />
+    <Compile Include="Migrations\202004022356597_AddModelCustomer.Designer.cs">
+      <DependentUpon>202004022356597_AddModelCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\DocumentType.cs" />
     <Compile Include="Models\Employe.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -323,6 +336,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202004020019085_addModelDocumentType_Employe.resx">
       <DependentUpon>202004020019085_addModelDocumentType_Employe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004020041452_AddDisplayToModelEmploye.resx">
+      <DependentUpon>202004020041452_AddDisplayToModelEmploye.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004020121315_AddAnotationToModelEmployes.resx">
+      <DependentUpon>202004020121315_AddAnotationToModelEmployes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004022356597_AddModelCustomer.resx">
+      <DependentUpon>202004022356597_AddModelCustomer.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -11,12 +11,17 @@ namespace AplicacionMVC.Models
         [Key]
         public int EmployeId { get; set; }
 
+        [Display(Name ="First Namen")]
         public string FirstName { get; set; }
 
+        [Display(Name = "Last Name")]
         public string LastName { get; set; }
 
         public decimal Salary { get; set; }
 
+        [Display(Name ="Date Of Birth")]
+        [Required(ErrorMessage ="you must enter {0}")]
+        [DisplayFormat(DataFormatString = "{0:yyyy/MM/dd}",ApplyFormatInEditMode =true)]
         public DateTime DateOfBirth { get; set; }
 
         public int DocumentTypeID { get; set; }
