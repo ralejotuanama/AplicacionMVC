@@ -196,6 +196,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\DocumentTypesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
@@ -210,8 +211,14 @@
     <Compile Include="Migrations\202004011903559_addPriceToModelProduct.Designer.cs">
       <DependentUpon>202004011903559_addPriceToModelProduct.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004020019085_addModelDocumentType_Employe.cs" />
+    <Compile Include="Migrations\202004020019085_addModelDocumentType_Employe.Designer.cs">
+      <DependentUpon>202004020019085_addModelDocumentType_Employe.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\DocumentType.cs" />
+    <Compile Include="Models\Employe.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MVCContextType.cs" />
@@ -284,6 +291,11 @@
     <Content Include="Views\Products\Details.cshtml" />
     <Content Include="Views\Products\Edit.cshtml" />
     <Content Include="Views\Products\Index.cshtml" />
+    <Content Include="Views\DocumentTypes\Create.cshtml" />
+    <Content Include="Views\DocumentTypes\Delete.cshtml" />
+    <Content Include="Views\DocumentTypes\Details.cshtml" />
+    <Content Include="Views\DocumentTypes\Edit.cshtml" />
+    <Content Include="Views\DocumentTypes\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -302,6 +314,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202004011903559_addPriceToModelProduct.resx">
       <DependentUpon>202004011903559_addPriceToModelProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004020019085_addModelDocumentType_Employe.resx">
+      <DependentUpon>202004020019085_addModelDocumentType_Employe.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

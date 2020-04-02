@@ -17,5 +17,10 @@ namespace AplicacionMVC.Models
 
         public DbSet<Product> Products { get; set; }
 
+        public DbSet<DocumentType> DocumentTypes { get; set; }
+
+
+        public DbSet<Employe> Employes { get; set; }
+
     }
 }
