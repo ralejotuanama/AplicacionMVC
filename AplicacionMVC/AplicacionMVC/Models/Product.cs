@@ -16,8 +16,9 @@ namespace AplicacionMVC.Models
 
         public DateTime LastBuy { get; set; }
 
-        public float Quantity { get; set; }
 
         public decimal Price { get; set; }
+
+        public virtual ICollection<OrderDetail> OrderDetails { get; set; }
     }
 }

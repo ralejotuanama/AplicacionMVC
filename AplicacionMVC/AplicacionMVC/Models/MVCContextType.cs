@@ -22,5 +22,9 @@ namespace AplicacionMVC.Models
 
         public DbSet<Employe> Employes { get; set; }
 
+        public System.Data.Entity.DbSet<AplicacionMVC.Models.Customer> Customers { get; set; }
+
+        public DbSet<Order> Orders { get; set; }
+
     }
 }

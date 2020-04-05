@@ -46,7 +46,12 @@ namespace AplicacionMVC.Models
         public int DocumentTypeID { get; set; }
 
 
+        public string FullName { get { return string.Format("{0} {1}", FirstName, LastName); } }
+
+
         public virtual DocumentType DocumentType { get; set; }
+
+        public virtual ICollection<Order> Orders { get; set; }
 
 
     }
