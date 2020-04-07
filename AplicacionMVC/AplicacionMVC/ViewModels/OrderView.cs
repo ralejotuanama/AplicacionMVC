@@ -11,6 +11,7 @@ namespace AplicacionMVC.ViewModels
 
         public Customer Customer { get; set; }
 
-        public List<Product> Products { get; set; }
+        public ProductOrder ProductOrder { get; set; }
+        public List<ProductOrder> Products { get; set; }
     }
 }
